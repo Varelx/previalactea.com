@@ -4,19 +4,6 @@
 
 *Diviértete con amigos usando PreVia Láctea: Yo nunca, Retos, Verdad o trago y mucho más.*
 
----
-
-## 📋 Tabla de Contenidos
-
-- [Acerca del Proyecto](#-acerca-del-proyecto)
-- [Características Principales](#-características-principales)
-- [Modos de Juego](#-modos-de-juego)
-- [Estructura del Proyecto](#-estructura-del-proyecto)
-- [Tecnologías Utilizadas](#-tecnologías-utilizadas)
-- [Guía de Uso](#-guía-de-uso)
-- [Roadmap](#-roadmap)
-- [Contribución](#-contribución)
-- [Licencia](#-licencia)
 
 ---
 
