@@ -1,7 +1,9 @@
 <div align="center">
-# 🥛 PreVia Láctea
+
+## 🥛 PreVia Láctea
 
 *Diviértete con amigos usando PreVia Láctea: Yo nunca, Retos, Verdad o trago y mucho más.*
+
 </div>
 
 ---
