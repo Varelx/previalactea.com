@@ -46,4 +46,3 @@ PreVia-Lactea/
 ├── prompts.js        # Base de datos de preguntas, retos y tonos
 ├── style.css         # Estilos visuales, animaciones 3D y diseño adaptativo
 └── README.md         # Documentación principal
-
