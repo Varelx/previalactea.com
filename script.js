@@ -19,11 +19,7 @@ document.querySelectorAll('.game-tile').forEach(tile => {
     });
 });
 
-<<<<<<< HEAD
 // Selector de tono (Normal / Atrevido)
-=======
-// Selector de tono (Normal / Hot)
->>>>>>> 4a64fa7e41fc5cf1d34b7f16aa15d43cbd3ab380
 document.querySelectorAll('.tone-btn').forEach(btn => {
     btn.addEventListener('click', () => {
         document.querySelectorAll('.tone-btn').forEach(b => b.classList.remove('active'));
@@ -104,7 +100,4 @@ function nextPrompt() {
         promptCategoryBadge.style.display = 'none';
     }
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> 4a64fa7e41fc5cf1d34b7f16aa15d43cbd3ab380

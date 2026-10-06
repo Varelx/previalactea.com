@@ -13,17 +13,10 @@ function triggerHaptic() {
 }
 
 function updateTheme(tone) {
-<<<<<<< HEAD
     if (tone === 'atrevido') {
         document.body.classList.add('theme-atrevido');
     } else {
         document.body.classList.remove('theme-atrevido');
-=======
-    if (tone === 'hot') {
-        document.body.classList.add('theme-hot');
-    } else {
-        document.body.classList.remove('theme-hot');
->>>>>>> 4a64fa7e41fc5cf1d34b7f16aa15d43cbd3ab380
     }
 }
 
@@ -211,7 +204,4 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 });
-<<<<<<< HEAD
 
-=======
->>>>>>> 4a64fa7e41fc5cf1d34b7f16aa15d43cbd3ab380
