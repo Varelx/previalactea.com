@@ -357,8 +357,13 @@ body {
   box-shadow: 0 4px 20px rgba(59, 130, 246, 0.45);
 }
 
+<<<<<<< HEAD
 /* Botón atrevido activo (Rojo con sombra rojiza) */
 .tone-btn[data-tone="atrevido"].active,
+=======
+/* Botón Hot activo (Rojo con sombra rojiza) */
+.tone-btn[data-tone="hot"].active,
+>>>>>>> 4a64fa7e41fc5cf1d34b7f16aa15d43cbd3ab380
 .tone-btn.active:last-child {
   background: #ef4444;
   color: #ffffff;
@@ -749,4 +754,7 @@ body {
     color: #000000 !important;
     border-color: #ffffff !important;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 4a64fa7e41fc5cf1d34b7f16aa15d43cbd3ab380

@@ -17,7 +17,11 @@
 ## ✨ Características Principales
 
 * 🎮 **Múltiples Categorías:** Desde el clásico "Yo nunca" hasta retos interactivos y "Verdad o trago".
+<<<<<<< HEAD
 * 🔥 **Selector de Tono (Normal / Atrevido):** Adapta la intensidad de las preguntas y los retos según el ambiente de la fiesta.
+=======
+* 🔥 **Selector de Tono (Normal / Hot):** Adapta la intensidad de las preguntas y los retos según el ambiente de la fiesta.
+>>>>>>> 4a64fa7e41fc5cf1d34b7f16aa15d43cbd3ab380
 * 👥 **Gestión de Jugadores:** Añade nombres de participantes para personalizar los retos de interacción de forma aleatoria.
 * 🔊 **Lectura por Voz:** Integración con la API de síntesis de voz del navegador para leer los prompts automáticamente.
 * 📳 **Feedback Háptic:** Soporte de vibración en dispositivos compatibles para mejorar la experiencia de usuario.
@@ -32,7 +36,11 @@
 * 📊 **Más probable qué...:** Votaciones grupales para señalar a quién es más probable que le ocurra algo.
 * 👥 **Interacción:** Retos cruzados y dinámicas directas entre jugadores seleccionados al azar.
 * 🔥 **Retos:** Pruebas y desafíos físicos o mentales para poner a prueba al grupo.
+<<<<<<< HEAD
 * 🍷 **Verdad o trago:** Sinceridad absoluta o toca pagar.
+=======
+* 🍷 **Verdad o trago:** Sinceridad absoluta o toca beber.
+>>>>>>> 4a64fa7e41fc5cf1d34b7f16aa15d43cbd3ab380
 
 ---
 
@@ -46,4 +54,7 @@ PreVia-Lactea/
 ├── prompts.js        # Base de datos de preguntas, retos y tonos
 ├── style.css         # Estilos visuales, animaciones 3D y diseño adaptativo
 └── README.md         # Documentación principal
+<<<<<<< HEAD
 
+=======
+>>>>>>> 4a64fa7e41fc5cf1d34b7f16aa15d43cbd3ab380
