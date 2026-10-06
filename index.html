@@ -1,0 +1,225 @@
+﻿<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>PreVia Láctea - Juegos de Fiesta y Preguntas</title>
+    <meta name="description" content="Diviértete con amigos usando PreVia Láctea: Yo nunca, Retos, Verdad o trago y mucho más. La mejor plataforma web de juegos para fiestas y reuniones.">
+    <link rel="canonical" href="https://previalactea.com/">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="PreVia Láctea">
+    <meta property="og:title" content="PreVia Láctea - Juegos de Fiesta y Preguntas">
+    <meta property="og:description" content="Diviértete con amigos usando PreVia Láctea: Yo nunca, Retos y mucho más.">
+    <meta property="og:url" content="https://previalactea.com/">
+    <meta property="og:locale" content="es_ES">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="PreVia Láctea">
+    <meta name="twitter:description" content="Diviértete con amigos usando PreVia Láctea: Yo nunca, Retos y mucho más.">
+
+    <!-- Preconexiones para acelerar la carga de recursos externos -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+
+    <!-- Código de verificación de Google AdSense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3825732299414999" crossorigin="anonymous"></script>
+
+    <!-- Fuentes -->
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"></noscript>
+
+    <!-- Iconos FontAwesome -->
+    <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"></noscript>
+
+    <link rel="stylesheet" href="style.css?v=4.2">
+
+    <!-- Estilos específicos y discretos para el desplegable camuflado -->
+    <style>
+        .stealth-details {
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            border-radius: 12px;
+            margin: 20px auto;
+            width: 100%;
+            max-width: 600px;
+            text-align: left;
+            transition: background 0.2s ease;
+        }
+        .stealth-details:hover {
+            background: rgba(255, 255, 255, 0.04);
+        }
+        .stealth-summary {
+            font-size: 0.85rem;
+            font-weight: 500;
+            color: rgba(255, 255, 255, 0.7);
+            padding: 10px 14px;
+            cursor: pointer;
+            list-style: none;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            user-select: none;
+        }
+        .stealth-summary::-webkit-details-marker {
+            display: none;
+        }
+        .stealth-summary::after {
+            content: '\f078';
+            font-family: 'Font Awesome 6 Free';
+            font-weight: 900;
+            font-size: 0.7rem;
+            transition: transform 0.3s ease;
+            color: rgba(255, 255, 255, 0.4);
+        }
+        details[open] .stealth-summary::after {
+            transform: rotate(180deg);
+        }
+        .stealth-body {
+            padding: 0 14px 14px 14px;
+            font-size: 0.82rem;
+            line-height: 1.5;
+            color: rgba(255, 255, 255, 0.6);
+            border-top: 1px solid rgba(255, 255, 255, 0.04);
+            margin-top: 4px;
+            padding-top: 10px;
+        }
+        .stealth-body h4 {
+            font-size: 0.85rem;
+            color: rgba(255, 255, 255, 0.85);
+            margin: 10px 0 4px 0;
+            font-weight: 600;
+        }
+        .stealth-body ul {
+            margin: 4px 0 8px 14px;
+            padding: 0;
+        }
+        .stealth-body li {
+            margin-bottom: 3px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="app-container">
+        <!-- Barra superior profesional -->
+        <header class="topbar">
+            <a href="index.html" class="brand" style="text-decoration: none; color: inherit;">
+                <div class="logo" id="appLogo">
+                    <i class="fa-solid fa-champagne-glasses" aria-hidden="true"></i>
+                </div>
+                <h1>PreVia Láctea</h1>
+            </a>
+        </header>
+
+        <!-- Contenido principal -->
+        <main class="content" style="text-align: center; display: flex; flex-direction: column; align-items: center;">
+            
+            <!-- Selector de Juegos -->
+            <section class="game-picker" id="gamePicker" aria-hidden="false" style="width: 100%; max-width: 600px;">
+                <header class="picker-header" style="text-align: center;">
+                    <h2 class="title-3d-glow">Elige un juego</h2>
+                </header>
+                
+                <nav class="tiles" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; justify-items: center;">
+                    <a href="game.html?cat=mix" class="game-tile card-dopamine" style="text-decoration: none; text-align: center;">
+                        <div class="tile-visual bg-0"><i class="fa-solid fa-shuffle" aria-hidden="true"></i></div>
+                        <div class="tile-info">
+                            <strong>Mix</strong>
+                            <span class="muted">Un remix de todo</span>
+                        </div>
+                    </a>
+
+                    <a href="game.html?cat=yonunca" class="game-tile card-dopamine" style="text-decoration: none; text-align: center;">
+                        <div class="tile-visual bg-1"><i class="fa-solid fa-user-secret" aria-hidden="true"></i></div>
+                        <div class="tile-info">
+                            <strong>Yo nunca</strong>
+                            <span class="muted">Secretos y confesiones</span>
+                        </div>
+                    </a>
+
+                    <a href="game.html?cat=votaciones" class="game-tile card-dopamine" style="text-decoration: none; text-align: center;">
+                        <div class="tile-visual bg-5"><i class="fa-solid fa-square-poll-vertical" aria-hidden="true"></i></div>
+                        <div class="tile-info">
+                            <strong>Más probable qué...</strong>
+                            <span class="muted">Revela al grupo</span>
+                        </div>
+                    </a>
+
+                    <a href="game.html" class="game-tile card-dopamine" style="text-decoration: none; text-align: center;">
+                        <div class="tile-visual bg-6"><i class="fa-solid fa-users-rays" aria-hidden="true"></i></div>
+                        <div class="tile-info">
+                            <strong>Interacción</strong>
+                            <span class="muted">Retos entre jugadores</span>
+                        </div>
+                    </a>
+
+                    <a href="game.html?cat=retos" class="game-tile card-dopamine" style="text-decoration: none; text-align: center;">
+                        <div class="tile-visual bg-3"><i class="fa-solid fa-fire" aria-hidden="true"></i></div>
+                        <div class="tile-info">
+                            <strong>Retos</strong>
+                            <span class="muted">Pruebas y desafíos</span>
+                        </div>
+                    </a>
+
+                    <a href="game.html?cat=verdadpierde" class="game-tile card-dopamine" style="text-decoration: none; text-align: center;">
+                        <div class="tile-visual bg-4"><i class="fa-solid fa-wine-glass-empty" aria-hidden="true"></i></div>
+                        <div class="tile-info">
+                            <strong>Verdad o trago</strong>
+                            <span class="muted">Sinceridad o pierdes</span>
+                        </div>
+                    </a>
+                </nav>
+            </section>
+
+            <!-- Desplegable camuflado idéntico al de game.html -->
+            <details class="stealth-details">
+                <summary class="stealth-summary">
+                    <span><i class="fa-solid fa-book-open" style="margin-right: 6px;"></i> Guía de la plataforma y categorías</span>
+                </summary>
+                <div class="stealth-body">
+                    <p><strong>PreVia Láctea</strong> es una plataforma web interactiva diseñada para amenizar reuniones y previas entre amigos mediante dinámicas de grupo fluidas y accesibles desde cualquier navegador.</p>
+                    
+                    <h4>Estructura de minijuegos disponibles</h4>
+                    <ul>
+                        <li><strong>Mix y Yo nunca:</strong> Selección aleatoria de preguntas orientadas a la revelación de secretos y participación general.</li>
+                        <li><strong>Más probable qué...:</strong> Votaciones directas para identificar comportamientos comunes dentro del grupo.</li>
+                        <li><strong>Retos y Verdad o trago:</strong> Desafíos físicos y pruebas de sinceridad para incrementar la interacción directa.</li>
+                    </ul>
+
+                    <h4>Recomendaciones de uso</h4>
+                    <p>La participación en los juegos es completamente voluntaria y está pensada para fomentar un entorno de ocio responsable, respetuoso y seguro para todos los asistentes.</p>
+                </div>
+            </details>
+
+            <!-- Contenedor de Anuncio Discreto -->
+            <div class="ad-container" style="margin: 24px auto 10px auto; text-align: center; max-width: 100%; overflow: hidden;">
+                <ins class="adsbygoogle"
+                     style="display:block"
+                     data-ad-client="ca-pub-3825732299414999"
+                     data-ad-slot="7601332966"
+                     data-ad-format="auto"
+                     data-full-width-responsive="true"></ins>
+                <script>
+                     (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+            </div>
+
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer" style="text-align: center;">
+            <p>Todos los derechos reservados &copy; Varelx &bull; Versión 4.2</p>
+            <a href="aviso-legal.html" style="color: #ffffff; text-decoration: none; margin: 0 10px;">Aviso Legal</a>  |
+            <a href="privacidad.html" style="color: #ffffff; text-decoration: none; margin: 0 10px;">Política de Privacidad</a>  |
+            <a href="cookies.html" style="color: #ffffff; text-decoration: none; margin: 0 10px;">Política de Cookies</a>
+        </footer>
+        
+    </div>
+</body>
+</html>
+
